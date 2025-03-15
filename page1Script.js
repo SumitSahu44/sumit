@@ -39,8 +39,10 @@ var crsr = document.querySelector(".cursor")
 var main = document.querySelector(".main")
 main.addEventListener("mousemove",function(dets)
 {
-  crsr.style.left = dets.x+'px'
-  crsr.style.top = dets.y+'px'
+  crsr.style.visibility = "visible"; // Ensure cursor is visible
+  crsr.style.transform = `translate(${dets.x}px, ${dets.y}px) translate(-50%, -50%)`;
+
+ 
 })
 
 
@@ -76,3 +78,26 @@ tl.to(".page1 video",{
    width:"90%"
    
 },"anim")
+
+
+
+
+// page 2 js
+var boxes = document.querySelectorAll(".box")
+boxes.forEach((box)=>{
+   box.addEventListener("mouseenter", function(){
+     var att =  box.getAttribute("data-image")
+     crsr.style.width = "300px"
+     crsr.style.height = "250px"
+     crsr.style.borderRadius = "0"
+     crsr.style.backgroundImage = `url(${att})`
+
+     })
+   box.addEventListener("mouseleave", function(){
+    box.style.backgroundColor="transparent"
+    crsr.style.width = "20px"
+    crsr.style.height = "20px"
+    crsr.style.borderRadius = "50%"
+    crsr.style.backgroundImage = `none`
+ })
+})
