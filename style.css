@@ -241,3 +241,36 @@ body{
 {
     border-bottom: 2px solid #dadada;
 }
+
+
+
+/* page 3 css  */
+
+.page3{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: red;
+    padding: 140px 100px;
+ 
+}
+
+.page3 h2{
+     font-size: 4vw;
+     font-weight: 400;
+   
+
+}
+.cards {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+   
+}
+
+.card{
+    width: 300px;
+
+    height: 400px;
+    background-color: green;
+}
