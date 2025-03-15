@@ -76,4 +76,3 @@ tl.to(".page1 video",{
    width:"90%"
    
 },"anim")
-
