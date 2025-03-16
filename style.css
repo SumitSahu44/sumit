@@ -247,7 +247,7 @@ body{
 /* page 3 css  */
 
 .page3{
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     position: relative;
     /* background-color: #1d1da5; */
@@ -255,7 +255,7 @@ body{
 
 .page3 h2{
      font-size: 4vw;
-     font-weight: 400;
+     /* font-weight: 400; */
      padding: 50px 0 40px 100px;
 
 }
@@ -290,13 +290,28 @@ body{
 
 /* page3 css  */
 .page4{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
-  
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .page4  h2{
    color: #000;
+    text-align: center;
    font-size: 4vw;
-   padding: 0px 100px;
+  
+}
+
+.page4 p{
+    color: black;
+    font-size: 1.5vw;
+   width: 60vw;
+   font-weight: 600;
+   margin: 2vw auto;
+    border: 2px solid green;
+    text-align: center;
 }
