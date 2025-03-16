@@ -290,13 +290,12 @@ body{
 
 /* page3 css  */
 .page4{
-    /* height: 100vh; */
+    position: relative;
     width: 100%;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    padding: 100px 0px 400px 0;
 }
 
 .page4  h2{
@@ -310,8 +309,43 @@ body{
     color: black;
     font-size: 1.5vw;
    width: 60vw;
+   height: 10vw;
    font-weight: 600;
    margin: 2vw auto;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     text-align: center;
+}
+.relative{
+    position: relative;
+}
+.skillIcon{
+   position: absolute;
+   width: 80px;
+   animation: floatAnimation 1.5s ease-in-out infinite;
+  
+}
+.skillIcon1{
+    top: 0px;
+    left: -30px;
+   
+}
+
+.skillIcon2{
+    top: -40px;
+    right: -20px;
+}
+
+.skillIcon3{
+    bottom: -20px;
+    left: 100px;
+}
+.skillIcon4{
+    bottom: -20px;
+    right: 100px;
+}
+
+@keyframes floatAnimation {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
 }
