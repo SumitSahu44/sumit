@@ -98,13 +98,14 @@ tl2.to(".bg",{
   // backgroundColor:"#FADFD8"
   backgroundColor:"#FFF"
 }, "sametimeworking")
+
 tl2.to(".page3 h2",{
      color:"#000"
 }, "sametimeworking")
 
 tl2.to(".card",{
-   transform:"translateX(-300%)"
-    // ease: "power4.out",
+   transform:"translateX(-300%)",
+   // ease: "power4.out",
    
 },"sametimeworking")
 
