@@ -250,27 +250,47 @@ body{
     min-height: 100vh;
     width: 100%;
     position: relative;
-    background-color: red;
-    padding: 140px 100px;
- 
-}
+    /* background-color: #1d1da5; */
+   }
 
 .page3 h2{
      font-size: 4vw;
      font-weight: 400;
-   
+     padding: 50px 0 40px 100px;
 
 }
 .cards {
     display: flex;
-    gap: 40px;
+    gap: 100px;
     align-items: center;
-   
+    overflow-x: auto;
+    padding-left:100px;
+  
+}
+.cards::-webkit-scrollbar {
+    display: none;
 }
 
 .card{
-    width: 300px;
+    width: 35vw; 
+    height: 25vw;  
+    flex-shrink: 0;
+   
+}
 
-    height: 400px;
-    background-color: green;
+
+.card img{
+    width: 100%;
+    height:100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+
+
+
+.page4{
+    height: 100vh;
+    width: 100%;
+  
 }

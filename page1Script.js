@@ -81,8 +81,42 @@ tl.to(".page1 video",{
 
 
 
+// page 2 animation js 
+tl2 = gsap.timeline({
+  scrollTrigger:{
+    trigger:".page3",
+    scroller:".main",
+    start:"top -35%",
+    end:"top -130%",
+    markers:true,
+    pin:true,
+    scrub:3
+  }
+})
+
+tl2.to(".bg",{
+  // backgroundColor:"#FADFD8"
+  backgroundColor:"#FFF"
+}, "sametimeworking")
+tl2.to(".page3 h2",{
+     color:"#000"
+}, "sametimeworking")
+
+tl2.to(".card",{
+   transform:"translateX(-300%)"
+    // ease: "power4.out",
+   
+},"sametimeworking")
+
+
+
+
+
+
+
 
 // page 2 js
+
 var boxes = document.querySelectorAll(".box")
 boxes.forEach((box)=>{
    box.addEventListener("mouseenter", function(){
