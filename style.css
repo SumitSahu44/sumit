@@ -405,6 +405,11 @@ body{
 
     }
 
+    .page3{
+        min-height: auto !important;
+        
+    }
+
 
     
 
@@ -457,7 +462,8 @@ body{
         
       .page3{
         min-height: auto !important;
-        height: auto !important;
+        border:2px solid red;
+        padding-top:450px !important;
       }
 
     
