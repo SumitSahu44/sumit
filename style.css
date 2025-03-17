@@ -455,7 +455,10 @@ body{
                 flex-shrink: 0;
                 }
         
-   
+      .page3{
+        min-height: auto !important;
+        height: auto !important;
+      }
 
     
 }
