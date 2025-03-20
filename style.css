@@ -179,7 +179,7 @@ body{
     background-color: #0F0D0D;
 }
 .page1{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100%;
     /* border: 2px solid #0F0D0D; */
     color: white;
@@ -215,11 +215,12 @@ body{
 
 .page2{
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100%;
     border: 2px solid rgb(0, 41, 128);
     z-index: 9;
-    padding: 140px 100px;
+    padding: 50px;
+   
 }
 
 .page2 h2{
@@ -249,7 +250,7 @@ body{
 /* page 3 css  */
 
 .page3{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: relative;
     /* background-color: #1d1da5; */
@@ -409,11 +410,7 @@ body{
 
     }
 
-    .page3{
-        min-height: auto !important;
-        
-    }
-
+   
 
     
 
@@ -441,14 +438,12 @@ body{
         margin-left: 20vw;
     }
 
-   .page1, .page2, .page3{
-            min-height: 100vh; /* Force reset */
-            padding: 0px 0px;
-          }
-
+ .page1, .page2, .page3{
+    padding: 60px 20px !important;
+ }
 .page3{
     height: 100% !important;
-    padding: 20px !important;
+    /* padding: 20px !important; */
     border: orange !important;
 }
         .page2 h2, .page3 h2{
