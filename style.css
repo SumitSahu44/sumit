@@ -442,11 +442,15 @@ body{
     }
 
    .page1, .page2, .page3{
-            min-height: auto; /* Force reset */
-            padding: 60px 20px;
+            min-height: 100vh; /* Force reset */
+            padding: 0px 0px;
           }
 
-
+.page3{
+    height: 100% !important;
+    padding: 20px !important;
+    border: orange !important;
+}
         .page2 h2, .page3 h2{
               font-size: 12vw;
               padding-left: 20px;
@@ -464,11 +468,11 @@ body{
                 flex-shrink: 0;
                 }
         
-      .page3{
+      /* .page3{
         min-height: auto !important;
         border:2px solid red;
         padding-top:450px !important;
-      }
+      } */
 
     
 }

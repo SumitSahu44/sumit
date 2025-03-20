@@ -86,8 +86,8 @@ tl2 = gsap.timeline({
   scrollTrigger:{
     trigger:".page3",
     scroller:".main",
-    start:"top 0%",
-    end:"top -100%",
+    start:"top -30%",
+    end:"top -140%",
     markers:true,
     pin:true,
     scrub:3
@@ -104,7 +104,7 @@ tl2.to(".page3 h2",{
 }, "sametimeworking")
 
 tl2.to(".card",{
-   transform:"translateX(-300%)",
+   transform:"translateX(-310%)",
    // ease: "power4.out",
    
 },"sametimeworking")
