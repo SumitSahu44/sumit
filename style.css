@@ -409,11 +409,7 @@ body{
 
     }
 
-    .page3{
-        min-height: auto !important;
-        
-    }
-
+   
 
     
 
@@ -441,14 +437,12 @@ body{
         margin-left: 20vw;
     }
 
-   .page1, .page2, .page3{
-            min-height: 100vh; /* Force reset */
-            padding: 0px 0px;
-          }
-
+ .page1, .page2, .page3{
+    padding: 60px 20px !important;
+ }
 .page3{
     height: 100% !important;
-    padding: 20px !important;
+    /* padding: 20px !important; */
     border: orange !important;
 }
         .page2 h2, .page3 h2{
