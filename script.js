@@ -57,7 +57,7 @@ mainId.addEventListener("mouseenter", function () {
     p.style.display = "block"
 })
 
-
+// code for when moue leave 
 mainId.addEventListener("mouseleave", function () {
     crsr.style.width = "20" + 'px'
     crsr.style.height = "20" + 'px'
