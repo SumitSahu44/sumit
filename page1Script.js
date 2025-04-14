@@ -116,7 +116,7 @@ tl2.to(".card",{
 
 
 
-// page 2 js
+// page 2 js for increase with of box img
 
 var boxes = document.querySelectorAll(".box")
 boxes.forEach((box)=>{
