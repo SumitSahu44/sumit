@@ -52,7 +52,7 @@ main.addEventListener("mousemove",function(dets)
 
 
 
-
+// timeline for work line by line 
 var tl = gsap.timeline({
     scrollTrigger:{
         trigger:".page1 h1",
