@@ -11,7 +11,7 @@
     src: url('./fonts/Gilroy/Gilroy-Regular.ttf') format('truetype');
 }
 
-/* Kajiro Font */
+/* Kajiro Font first download and than use */
 @font-face {
     font-family: 'Kajiro';
     src: url('./fonts/kajiro/Kajiro.ttf') format('truetype');
