@@ -76,7 +76,7 @@ tl.to(".page1 h2",{
 
 tl.to(".page1 video",{
    width:"90%"
-},"anim")
+},"anim")// same name for work at same time
 
 
 
