@@ -43,7 +43,7 @@ elems.forEach(function (elem) {
 })
 
 
-
+// get main for add mouse event on it 
 var mainId = document.querySelector("#main")
 var crsr = document.querySelector(".cursor")
 var p = document.querySelector(".cursor p")
