@@ -37,9 +37,6 @@ elems.forEach(function (elem) {
 
                 })
 
-
-
-
             }
 
         })
