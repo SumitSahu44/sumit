@@ -67,7 +67,7 @@ var tl = gsap.timeline({
 tl.to(".page1 h1",{
     x:-100,
    
-}, "anim")
+}, "anim") 
 
 tl.to(".page1 h2",{
     x:100,
@@ -76,7 +76,6 @@ tl.to(".page1 h2",{
 
 tl.to(".page1 video",{
    width:"90%"
-   
 },"anim")
 
 
